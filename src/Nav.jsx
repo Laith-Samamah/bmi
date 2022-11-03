@@ -5,7 +5,7 @@ class Nav extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-lg bg-warning">
+                <nav className="navbar navbar-expand-lg " style={{background: "steelblue"}}>
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#">Navbar</a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"

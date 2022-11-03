@@ -1,15 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import reportWebVitals from "./reportWebVitals";
 import "./index.css";
 import Form from "./Form";
-import reportWebVitals from "./reportWebVitals";
+import FormFu from "./FormFu";
 import Nav from "./Nav";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Nav />
-    <Form />
+    {/* <Form /> */}
+    <FormFu />
   </React.StrictMode>
 );
 
